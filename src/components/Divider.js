@@ -18,7 +18,7 @@ function Divide() {
     >
       <h3>Divide</h3>
       <div>
-        {initialValue} {value && `* ${value}`}
+        {initialValue} {value && `/ ${value}`}
       </div>
       <div
         style={{

@@ -28,7 +28,7 @@ function Multiply() {
           width: '50%',
         }}
       >
-        Result: {value && (value * initialValue).toFixed(2)}
+        Result: {value && (initialValue * value).toFixed(2)}
       </div>
     </div>
   );

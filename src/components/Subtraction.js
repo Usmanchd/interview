@@ -18,7 +18,7 @@ function Subtraction() {
     >
       <h3>Subtraction</h3>
       <div>
-        {initialValue} {value && `* ${value}`}
+        {initialValue} {value && `- ${value}`}
       </div>
       <div
         style={{
@@ -28,7 +28,7 @@ function Subtraction() {
           width: '50%',
         }}
       >
-        Result: {value && (initialValue / value).toFixed(2)}
+        Result: {value && (initialValue - value).toFixed(2)}
       </div>
     </div>
   );
